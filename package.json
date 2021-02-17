@@ -1,4 +1,14 @@
 {
   "name": "@menty44/phonecodelib",
-  "version": "1.0.0"
+  "description": "returns country's based of supplied parameters",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "phone",
+    "code",
+    "phonecode",
+    "country",
+    "countryphone"
+  ]
 }
