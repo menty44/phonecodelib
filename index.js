@@ -1,20 +1,19 @@
 const custom = require('./service');
 
-function ByPhoneNumber(phone) {
-    custom.getByPhoneNumber(phone);
+let myCountries = {
+    ByPhoneNumber: function (phone) {
+        custom.getByPhoneNumber(phone);
+    },
+
+    ByCountryCode: function (countryCode) {
+        custom.getByCountryCode(countryCode);
+    },
+
+    ByCountryName: function (CountryName) {
+        custom.getByCountryName(CountryName);
+    }
 }
 
-function ByCountryCode(countryCode) {
-    custom.getByCountryCode(countryCode);
-}
 
-function ByCountryName(CountryName) {
-    custom.getByCountryName(CountryName);
-}
+module.exports = myCountries;
 
-
-module.exports = {
-    ByPhoneNumber: ByPhoneNumber,
-    ByCountryCode: ByCountryCode,
-    ByCountryName: ByCountryName,
-};
