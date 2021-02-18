@@ -1,7 +1,7 @@
 {
   "name": "@menty44/phonecodelib",
   "description": "returns country's based of supplied parameters",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "license": "MIT",
   "main": "index.js",
   "keywords": [
